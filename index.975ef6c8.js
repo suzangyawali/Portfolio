@@ -27217,7 +27217,7 @@ const About = ()=>{
                 style: {
                     backgroundColor: "white",
                     width: "50%",
-                    padding: "4rem",
+                    padding: "6rem",
                     margin: "3rem auto",
                     textAlign: "center"
                 },
@@ -27243,6 +27243,7 @@ const About = ()=>{
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        id: "main",
                         style: {
                             textAlign: "left",
                             columns: 2,
@@ -28666,9 +28667,9 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
                     position: "absolute",
-                    top: "5rem",
-                    left: "2rem",
-                    width: "17rem"
+                    top: "15rem",
+                    left: "5rem",
+                    width: "25rem"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -28700,8 +28701,8 @@ const Home = ({ name , title  })=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _downArrowSvgDefault.default),
                     style: {
-                        height: "4rem",
-                        width: "4rem"
+                        height: "3rem",
+                        width: "3rem"
                     },
                     alt: imageAltText
                 }, void 0, false, {
@@ -28773,8 +28774,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _deskPixabayWebp = require("../images/desk-pixabay.webp");
-var _deskPixabayWebpDefault = parcelHelpers.interopDefault(_deskPixabayWebp);
+ */ var _displayTableFinalJpeg = require("../images/display-table-final.jpeg");
+var _displayTableFinalJpegDefault = parcelHelpers.interopDefault(_displayTableFinalJpeg);
 const imageAltText = "desktop with books and laptop";
 /**
  * Project list
@@ -28831,7 +28832,7 @@ const Portfolio = ()=>{
                             alignSelf: "center"
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _deskPixabayWebpDefault.default),
+                            src: (0, _displayTableFinalJpegDefault.default),
                             style: {
                                 height: "90%",
                                 width: "100%",
@@ -28915,8 +28916,8 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/desk-pixabay.webp":"34CDk"}],"34CDk":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "desk-pixabay.1e69fed6.webp" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/display-table-final.jpeg":"d4Cre"}],"d4Cre":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "display-table-final.ea295127.jpeg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
