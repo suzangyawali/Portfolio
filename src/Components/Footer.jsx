@@ -18,6 +18,7 @@ import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import leetCodeIcon from "../images/socials/leetcode.svg";
 
 /**
  * 💡 Learning resources
@@ -38,6 +39,7 @@ const Footer = (props) => {
     primaryColor,
     twitter,
     youTube,
+    leetCode,
   } = props;
 
   return (
@@ -112,6 +114,17 @@ const Footer = (props) => {
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
         )}
+        {leetCode && (
+          <a
+            href={`https://www.leetcode.com/${leetCode}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={leetCodeIcon} alt="YouTube" className="socialIcon" />
+          </a>
+        )}
+        
+       
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
@@ -135,7 +148,7 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
+  leetCode:PropTypes.string,
 };
 
 export default Footer;
