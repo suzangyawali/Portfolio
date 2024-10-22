@@ -56,7 +56,7 @@ const About = () => {
         style={{
           backgroundColor: "white",
           width: "50%",
-          padding: "4rem",
+          padding: "6rem",
           margin: "3rem auto",
           textAlign: "center",
         }}
@@ -64,7 +64,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul
+        <ul id="main"
           style={{
             textAlign: "left",
             columns: 2,
@@ -74,7 +74,7 @@ const About = () => {
           }}
         >
           {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
+            <li  key={skill}>{skill}</li>
           ))}
         </ul>
         <hr />
