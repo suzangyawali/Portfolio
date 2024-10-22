@@ -28665,6 +28665,7 @@ const Home = ({ name , title  })=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "home-box",
                 style: {
                     position: "absolute",
                     top: "15rem",
