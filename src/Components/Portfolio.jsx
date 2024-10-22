@@ -52,7 +52,7 @@ const projectList = [
     title: "RESTful API with Node.js and MongoDB",
     description:
       "Implementing a Clean and Scalable RESTful API with Node.js and MongoDB",
-    url: "medium.com/@sujangyawali177/building-a-restful-api-with-node-js-express-and-mongodb-a-step-by-step-guide-6511449c2ab5",
+    url: "https://medium.com/@sujangyawali177/building-a-restful-api-with-node-js-express-and-mongodb-a-step-by-step-guide-6511449c2ab5",
   },
 ];
 
